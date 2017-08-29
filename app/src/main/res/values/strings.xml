@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trial</string>
+    <string name="title_activity_on_truck">Active Vehicles Menu</string>
+    <string name="title_activity_off_truck">Off Truck Menu</string>
+    <string name="title_activity_ladders">Ladders List</string>
+    <string name="title_activity_stretchers">Stretchers List</string>
+    <string name="title_activity_scba">SCBA List</string>
+    <string name="title_activity_misc">Misc. List</string>
+    <string name="title_activity_to_do_list">ToDo List</string>
+    <string name="username"></string>
+</resources>

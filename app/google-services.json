@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "8941467259",
+    "firebase_url": "https://trial-73e10.firebaseio.com",
+    "project_id": "trial-73e10",
+    "storage_bucket": "trial-73e10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8941467259:android:d0a66ed165134194",
+        "android_client_info": {
+          "package_name": "comtelekpsi.github.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8941467259-h6pinua9k8n3pt3ke9l0jdit0bfaema2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoJqnhSMV7_Y2JP_42kukd2tMssXEgdeQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8941467259:android:efba9046c3632574",
+        "android_client_info": {
+          "package_name": "comtelekpsi.github.trial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8941467259-m8qgp8kboub5cithveou65tb733ecm4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comtelekpsi.github.trial",
+            "certificate_hash": "946c73bee92f3dbe7067a3002bb1c4e4c93573d8"
+          }
+        },
+        {
+          "client_id": "8941467259-h6pinua9k8n3pt3ke9l0jdit0bfaema2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoJqnhSMV7_Y2JP_42kukd2tMssXEgdeQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8941467259-h6pinua9k8n3pt3ke9l0jdit0bfaema2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

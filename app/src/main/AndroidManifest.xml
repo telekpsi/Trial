@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="comtelekpsi.github.trial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OnTruckActivity"
+            android:label="@string/title_activity_on_truck"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".OffTruckActivity"
+            android:label="@string/title_activity_off_truck"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".StretchersActivity"
+            android:label="@string/title_activity_stretchers"
+            android:parentActivityName=".OffTruckActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.OffTruckActivity"/>
+        </activity>
+        <activity
+            android:name=".LaddersActivity"
+            android:label="@string/title_activity_ladders"
+            android:parentActivityName=".OffTruckActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.OffTruckActivity"/>
+        </activity>
+        <activity
+            android:name=".MiscActivity"
+            android:label="@string/title_activity_misc"
+            android:parentActivityName=".OffTruckActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.OffTruckActivity"/>
+        </activity>
+        <activity
+            android:name=".SCBAActivity"
+            android:label="@string/title_activity_scba"
+            android:parentActivityName=".OffTruckActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.OffTruckActivity"/>
+        </activity>
+        <activity
+            android:name=".VehicleSubActivity"
+            android:label="Vehicle Sections"
+            android:parentActivityName=".OnTruckActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.OnTruckActivity"/>
+        </activity>
+        <activity
+            android:name=".VehicleFormActivity"
+            android:label="Vehicle Form"
+            android:parentActivityName=".VehicleFormActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.VehicleFormActivity"/>
+        </activity>
+        <activity
+            android:name=".ToDoListActivity"
+            android:label="@string/title_activity_to_do_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="comtelekpsi.github.trial.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+    </application>
+
+</manifest>
